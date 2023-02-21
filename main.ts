@@ -5,5 +5,7 @@ input.onButtonPressed(Button.B, function () {
     basic.showIcon(IconNames.Sad)
 })
 basic.forever(function () {
-	
+    basic.showString("Bonjour")
+    basic.showIcon(IconNames.Heart)
+    basic.pause(2000)
 })
